@@ -402,3 +402,4 @@ D:\Learn ASP\Middleware\Middleware\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.
 D:\Learn ASP\Middleware\Middleware\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 D:\Learn ASP\Middleware\Middleware\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 D:\Learn ASP\Middleware\Middleware\obj\Debug\netcoreapp3.1\Middleware.MvcApplicationPartsAssemblyInfo.cs
+D:\Learn ASP\Middleware\Middleware\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
