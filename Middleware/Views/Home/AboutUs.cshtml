@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AboutUs</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    @*@for(int i = 0; i < 10; i++)
+    {
+        <h3>Hello @i</h3>
+    }*@
+
+    @{
+        var list = new List<int>(){1, 2, 3, 4, 5};
+    }
+    @foreach(var item in list)
+    {
+        <h3>@item</h3>
+    }
+
+    <img class="img-thumbnail" src="~/Contents/img/1.jpg" alt="dummy">
+   <button class="btn btn-danger">Test</button>
+</body>
+<script src="~/lib/jquery/jquery.js"></script>
+</html>
+
+<script>
+    $(document).ready(function(){
+        alert("Page Loaded");
+    });
+</script>
